@@ -22,7 +22,7 @@ int main(void)
 	{
 		printf("0\n");
 	}
-	else 
+	else
 	{
 		printf("greater than 5\n");
 	}
