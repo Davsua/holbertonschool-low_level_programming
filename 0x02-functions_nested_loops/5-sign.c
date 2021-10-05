@@ -1,8 +1,11 @@
 #include "main.h"
+
 /**
- * _islower - checks for lowercase character
- * @c: the character to check
- * Return: 1 if c is lowercase, 0 otherwise
+ * print_sign - prints the sign of a number
+ * @n: the int to check
+ * Return: 1 and prints + if n is greater than zero
+ * 0 and prints 0 if n is zero
+ * -1 and prints - if n is less than zero
  */
 int print_sign(int n)
 {
