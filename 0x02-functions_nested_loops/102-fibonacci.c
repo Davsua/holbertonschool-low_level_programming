@@ -28,4 +28,5 @@ int main(void)
 			printf(", %ld", k);
 		}
 	}
+	return (0);
 }
