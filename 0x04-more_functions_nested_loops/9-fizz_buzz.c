@@ -4,7 +4,7 @@
  * main - print the numbers between 1-100
  * except the multiples of 3, multiples of 5
  * and multiples of both
- * 
+ *
  * Return: nothing
  */
 int main(void)
