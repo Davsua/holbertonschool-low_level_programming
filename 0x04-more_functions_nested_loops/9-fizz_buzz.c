@@ -4,7 +4,7 @@
  * main - print the numbers between 1-100
  * except the multiples of 3, multiples of 5
  * and multiples of both
- *
+ * 
  * Return: nothing
  */
 int main(void)
@@ -15,19 +15,19 @@ int main(void)
 	{
 		if (a % 3 == 0 && a % 5 == 0)
 		{
-			printf(" FizzBuzz");
+			printf("fizzbuzz ");
 		}
 		else if (a % 5 == 0)
 		{
-			printf(" Buzz");
+			printf("buzz ");
 		}
 		else if (a % 3 == 0)
 		{
-			printf(" Fizz");
+			printf("fizz ");
 		}
 		else
 		{
-		printf("%d", a);
+		printf("%d ", a);
 		}
 	}
 	printf("\n");
