@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_square prints a square 
+ * print_square - prints a square 
  * according to the variable
  * @since: tell the times that 
  * the # will be print
