@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_diagonal prints a diagonal
+ * print_diagonal - prints a diagonal
  * with \
  * @n: indicate the times wthat \
  * will be print
