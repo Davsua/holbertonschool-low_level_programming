@@ -1,7 +1,7 @@
 #include "main.h"
 
 /** 
- * more_numbers prints numbers
+ * more_numbers - prints numbers
  * beetwen 0-14 10 times
  */
 
