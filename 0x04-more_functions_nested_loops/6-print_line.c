@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line print a horizontal
+ * print_line - print a horizontal
  * line.
  * @n: is the times that the _
  * ill be print
