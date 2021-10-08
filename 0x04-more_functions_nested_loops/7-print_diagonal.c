@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_diagonal prints a diagonal
+ * print_diagonal - prints a diagonal
  * with \
  * @n: indicate the times wthat \
  * will be print
@@ -17,15 +17,14 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		for (i = 1; i <= n; i++)
+		for (i = 0; i < n; i++)
 		{
-			_putchar(92);
-			_putchar('\n');
 			for (k = 0; k < i; k++)
 			{
 				_putchar(' ');
 			}
+			_putchar(92);
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
