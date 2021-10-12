@@ -16,9 +16,9 @@ void puts_half(char *str)
 		cant++;
 	}
 	j = cant / 2;
-	for (i = 0; i < j; j++)
+	for (i = 0; i < 5; i++)
 	{
-		_putchar(str[j]);
+		_putchar(str[j++]);
 	}
 	_putchar('\n');
 }
